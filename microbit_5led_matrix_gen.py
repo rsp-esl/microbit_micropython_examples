@@ -14,7 +14,8 @@ def create_matrix( n ):
                break
     return m
 
-random.seed( pin2.read_analog() ) # set the random seed using A2 input value
+x = pin3.read_analog()
+random.seed( x ) # set the random seed using Pin3 analog input value
 N = 5
 autorunning = False
 
