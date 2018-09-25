@@ -1,3 +1,6 @@
+# Date: 2018-09-25
+# Author: rawat s.
+
 from microbit import *
 import random
 import radio
